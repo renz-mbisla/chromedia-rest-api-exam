@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "5b787226-dbd2-4ab6-a627-cf6b06a25bfb",
+		"name": "Shapes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Square",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Shapes/Square",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Shapes",
+						"Square"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Square",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"size\": 8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Shapes/Square",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Shapes",
+						"Square"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Rectangle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Shapes/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Shapes",
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Rectangle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Width\": 4,\n    \"Height\": 8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Shapes/Rectangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Shapes",
+						"Rectangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Triangle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Shapes/Triangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Shapes",
+						"Triangle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Triangle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Left\": 4,\n    \"Right\": 8,\n    \"Bottom\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Shapes/Triangle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Shapes",
+						"Triangle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
